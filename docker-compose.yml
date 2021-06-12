@@ -15,5 +15,7 @@ services:
       - "27017:27017"
     volumes:
       - mongodata:/data/db
+    logging: 
+      driver: "none"
 volumes:
   mongodata:

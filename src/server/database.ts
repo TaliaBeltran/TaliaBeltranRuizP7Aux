@@ -1,11 +1,11 @@
 import mongoose from "mongoose";
 async function connect() {
   try {
-    await mongoose.connect("mongodb://172.29.0.2:27017/clase9Example", {
+    await mongoose.connect("mongodb://172.19.0.2:27017/clase9Example", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    console.log("database connected");
+    console.log("Database Connected");
   } catch (e) {
     console.log(e);
   }

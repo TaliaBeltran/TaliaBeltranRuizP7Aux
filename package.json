@@ -1,7 +1,6 @@
 {
-  "name": "restApiExample",
+  "name": "restapiexample",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -12,13 +11,28 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
     "@types/express": "^4.17.11",
-    "@types/morgan": "^1.9.2"
+    "@types/jsonwebtoken": "^8.5.1",
+    "@types/moment": "^2.13.0",
+    "@types/morgan": "^1.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "express": "^4.17.1",
     "mongoose": "^5.12.7",
     "morgan": "^1.10.0",
     "ts-node": "^9.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logang-sys/testingRepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/logang-sys/testingRepo/issues"
+  },
+  "homepage": "https://github.com/logang-sys/testingRepo#readme",
+  "description": ""
 }
