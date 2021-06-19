@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 async function connect() {
   try {
-    await mongoose.connect("mongodb://172.19.0.2:27017/clase9Example", {
+    await mongoose.connect("mongodb://172.24.0.2:27017/clase9Example", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
